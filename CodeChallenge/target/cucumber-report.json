@@ -1,0 +1,907 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23212736077,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the the websit using he \"AmazonURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AmazonURL\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_launch_the_the_websit_using_he(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11441018998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.beforeMethod()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verify the presence of the home page header",
+        "description": "",
+        "id": "amazon-add-product-to-shopping-cart;verify-the-presence-of-the-home-page-header",
+        "after": [
+          {
+            "result": {
+              "duration": 747646529,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174109332,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should be able to see the home page header displayed when user \"Logged Out\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Logged Out\"",
+                  "offset": 65
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_be_able_to_see_the_home_page_header_displayed_when_user(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonTest"
+          },
+          {
+            "name": "@AmazonPresenceOfHomePageHeader"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20153910641,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the the websit using he \"AmazonURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AmazonURL\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_launch_the_the_websit_using_he(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3952486567,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.beforeMethod()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify error message for incorrect user Name",
+        "description": "",
+        "id": "amazon-add-product-to-shopping-cart;verify-error-message-for-incorrect-user-name",
+        "after": [
+          {
+            "result": {
+              "duration": 800032734,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2331566655,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519577509,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I enter the \"User Name\" as \"IncorrectUserName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User Name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"IncorrectUserName\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_enter_the_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1711498573,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Continue\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176018253,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I should see the error message displayed as \"ErrorMessageForIncorrectUserName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ErrorMessageForIncorrectUserName\"",
+                  "offset": 44
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_error_message_displayed_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonTest"
+          },
+          {
+            "name": "@AmazonErrorIncorrectUserName"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14319682084,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the the websit using he \"AmazonURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AmazonURL\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_launch_the_the_websit_using_he(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3534106156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.beforeMethod()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Verify error message for incorrect password",
+        "description": "",
+        "id": "amazon-add-product-to-shopping-cart;verify-error-message-for-incorrect-password",
+        "after": [
+          {
+            "result": {
+              "duration": 2357833488,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9436645875,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 646009740,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the \"User Name\" as \"CorrectUserName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User Name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"CorrectUserName\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_enter_the_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1896117772,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on the \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Continue\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 408087147,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I enter the \"Password\" as \"IncorrectPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"IncorrectPassword\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_enter_the_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1755416711,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222477837,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see the error message displayed as \"ErrorMessageForIncorrectPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ErrorMessageForIncorrectPassword\"",
+                  "offset": 44
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_error_message_displayed_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonTest"
+          },
+          {
+            "name": "@AmazonErrorIncorrectPassword"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18013029167,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the the websit using he \"AmazonURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AmazonURL\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_launch_the_the_websit_using_he(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4364797754,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.beforeMethod()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Verify login to the site using valid credentials",
+        "description": "",
+        "id": "amazon-add-product-to-shopping-cart;verify-login-to-the-site-using-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 785507328,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3355683657,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 474260901,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I enter the \"User Name\" as \"CorrectUserName\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User Name\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"CorrectUserName\"",
+                  "offset": 27
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_enter_the_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2208040478,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the \"Continue\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Continue\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 397811169,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter the \"Password\" as \"CorrectPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"CorrectPassword\"",
+                  "offset": 26
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_enter_the_as(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6629096293,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on the \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71379263,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I wait for the user to be successfully logged in",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_wait_for_the_user_to_be_successfully_logged_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3483354471,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I should be able to see the home page header displayed when user \"Logged In\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Logged In\"",
+                  "offset": 65
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_be_able_to_see_the_home_page_header_displayed_when_user(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonTest"
+          },
+          {
+            "name": "@AmazonSuccessfulLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17453129895,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I launch the the websit using he \"AmazonURL\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AmazonURL\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_launch_the_the_websit_using_he(String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5745315745,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.beforeMethod()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Verify adding product to cart",
+        "description": "",
+        "id": "amazon-add-product-to-shopping-cart;verify-adding-product-to-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 895294570,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.afterMethod(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2672979860,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on the sign in button",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11586319511,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I login with \"CorrectUserName\" and \"CorrectPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CorrectUserName\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"CorrectPassword\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_login_with_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22478111152,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I conduct a search for \"ProductToBeSearched\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ProductToBeSearched\"",
+                  "offset": 23
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_conduct_a_search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9628495097,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I click on the search results at \"ProductPosition\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ProductPosition\"",
+                  "offset": 33
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_click_on_the_search_results_at(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164634409,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I should be redirected to the product Page",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_should_be_redirected_to_the_product_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1796087415,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I get the product name and price",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_get_the_product_name_and_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5356072031,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I add the \"Quantity\" to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Quantity\"",
+                  "offset": 10
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_add_the_to_the_cart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29866991,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I should see the product is added to the cart in product page",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_product_is_added_to_the_cart_in_product_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12717784399,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I navigate to the cart page",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_navigate_to_the_cart_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5126725537,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I should see the product \"ProductToBeSearched\" is added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ProductToBeSearched\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_product_is_added_to_the_cart(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 449121378,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I should see the name and the price displayed correctly",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_name_and_the_price_displayed_correctly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2123273923,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I logout out of the page",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_logout_out_of_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11278580334,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I login with \"CorrectUserName\" and \"CorrectPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CorrectUserName\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"CorrectPassword\"",
+                  "offset": 35
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_login_with_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4338965747,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I navigate to the cart page",
+            "match": {
+              "location": "AmazonAddToCartStepDefinitions.i_navigate_to_the_cart_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1452522217,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I should see the product \"ProductToBeSearched\" is added to the cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ProductToBeSearched\"",
+                  "offset": 25
+                }
+              ],
+              "location": "AmazonAddToCartStepDefinitions.i_should_see_the_product_is_added_to_the_cart(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AmazonTest"
+          },
+          {
+            "name": "@AmazonAddProductToCart"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Add Product to Shopping cart",
+    "description": "",
+    "id": "amazon-add-product-to-shopping-cart",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/AmazonAddProductToCart.feature",
+    "tags": [
+      {
+        "name": "@AmazonTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
